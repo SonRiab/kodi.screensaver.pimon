@@ -3,16 +3,13 @@
 
 ##Install
 
-Download the latest zip file from:
-https://github.com/timker/kodi.screensaver.pimon/releases/download/0.2.2/kodi.screensaver.pimon-0.2.2.zip
+Download the latest zip file from: https://github.com/SonRiab/kodi.screensaver.pimon/archive/0.3.1.zip
 
-use kodi to install from zip
+Use kodi to install this add-on from zip file.
 
 ##Build
 
-Make sure build.sh and addon.xml version numbers Match
-
-Do not finish the vesion number with a .0
+Make sure build.sh and addon.xml version number matches.
 
 run:
 ```
