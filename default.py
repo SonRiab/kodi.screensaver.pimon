@@ -28,7 +28,6 @@ addon = xbmcaddon.Addon()
 addon_name = addon.getAddonInfo('name')
 addon_path = addon.getAddonInfo('path')
 
-
 def ensurePath():
 	 binPath = '/opt/vc/bin'
 	 paths = os.environ["PATH"].split(os.pathsep)
@@ -64,7 +63,7 @@ class Screensaver(xbmcgui.WindowXMLDialog):
 
 if __name__ == '__main__':
     screensaver = Screensaver(
-        'script-%s-main.xml' % addon_name,
+        'default.xml',
         addon_path,
         'default',
     )
