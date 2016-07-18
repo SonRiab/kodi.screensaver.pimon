@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="screensaver.pimon" name="PiMon" version="0.3.3" provider-name="SonRiab">
+<addon id="screensaver.pimon" name="PiMon" version="0.3.3" provider-name="Tim Ker, SonRiab">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="xbmc.addon"  version="15.0.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="default.py" />
     <extension point="xbmc.ui.screensaver" library="default.py" />
     <extension point="xbmc.addon.metadata">
-        <provides>executable</provides>
-        <platform>linux</platform>
-        <language/>
-        <website></website>
-        <source>https://github.com/SonRiab/kodi.screensaver.pimon</source>
-        <forum>http://forum.kodi.tv/showthread.php?tid=163016&amp;pid=1995838#pid1995838</forum>
-        <email></email>
-        <summary lang="en">Screensaver for Raspberry Pi devices</summary>
-        <summary lang="de">Bildschirmschoner für Raspberry Pi Geräten</summary>
+        <summary lang="en">Screensaver to toggle HDMI output on Raspberry Pi devices</summary>
+        <summary lang="de">Bildschirmschoner zum An-/Auschalten des HDMI Ausgangs auf Raspberry Pi Geräte</summary>
         <description lang="en">This screensaver doesn't show any fancy animations or other stuff, but toggles the HDMI output on Raspberry Pi devices, so screens could go into sleep mode or wake up.</description>
-        <description lang="de">Dieser Bildschirmschoner zeigt keine hübschen Animationen oder anderes Zeug, sondern schaltet den HDMI Ausgang auf Raspberry Pi Geräten an/aus, so dass Monitor in den Schlafmodus gehen können oder aus diesem geweckt werden.</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <description lang="de">Dieser Bildschirmschoner zeigt keine hübschen Animationen oder anderes Zeug, sondern schaltet den HDMI Ausgang auf Raspberry Pi Geräten an/aus, so dass Monitore in den Schlafmodus gehen können oder aus diesem geweckt werden.</description>
+        <disclaimer></disclaimer>
+        <news></news>
+        <platform>linux</platform>
+        <language></language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license> <forum>http://forum.kodi.tv/showthread.php?tid=163016&amp;pid=1995838#pid1995838</forum>
+        <website></website>
+        <source>https://github.com/SonRiab/screensaver.pimon</source>
+        <email></email>
+        
     </extension>
 </addon>

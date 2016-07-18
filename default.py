@@ -24,8 +24,7 @@ import sys
 import subprocess
 import os
 
-addon = xbmcaddon.Addon()
-addon_name = addon.getAddonInfo('name')
+addon = xbmcaddon.Addon(id='screensaver.pimon')
 addon_path = addon.getAddonInfo('path')
 
 def ensurePath():
